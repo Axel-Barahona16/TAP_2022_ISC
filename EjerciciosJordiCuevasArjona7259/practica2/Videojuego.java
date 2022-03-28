@@ -67,7 +67,7 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
         //Propiedades de la ventana
         this.setVisible(true);
         this.setResizable(false);
-        this.setSize(900, 600);
+        this.setSize(900, 700);
         cerrar();
 
         
