@@ -18,7 +18,7 @@ protected void paintComponent(Graphics g) {
 }
 @Override
 protected void paintBorder(Graphics g) {
-	// TODO Auto-generated method stub
+	
 	g.setColor(Color.BLUE);
 	g.drawOval(0, 0, getSize().width-1, getSize().height-1);
 }
