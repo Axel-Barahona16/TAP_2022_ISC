@@ -114,7 +114,7 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 	}
 
     public static void main(String[] args) {
-        Videojuego v = new Videojuego();
+        Videojuego d = new Videojuego();
     }
 
     @Override
