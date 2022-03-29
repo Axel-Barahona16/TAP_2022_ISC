@@ -21,11 +21,11 @@ import java.awt.event.WindowListener;
 import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
 
-public class VentanaMejorada extends frame implements ActionListener {
+public class VentanaMejorada extends Frame implements ActionListener {
 
-
-}
-this.setLocationRelativeTo(null);
+    {
+        
+    this.setLocationRelativeTo(null);
 
     }
 
