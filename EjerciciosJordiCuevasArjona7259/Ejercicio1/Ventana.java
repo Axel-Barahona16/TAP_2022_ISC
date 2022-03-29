@@ -1,5 +1,7 @@
 package EjerciciosJordiCuevasArjona7259.Ejercicio1;
 
+import static java.awt.Font.PLAIN;
+
 import java.util.*;
 import java.awt.BorderLayout;
 import java.awt.Button;
@@ -89,5 +91,5 @@ public class Ventana extends Frame implements ActionListener {
 	 	if (e.getSource() == aceptar) {
 			 resultado.append(c + "\n");
 		}
-	
-
+	}	
+}
