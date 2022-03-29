@@ -6,19 +6,14 @@ import javax.swing.*;
 
 public class CalculadoraGUI extends JFrame {
 
-    /**
-     * @author Francisco Huchin
-     */
     private static final long serialVersionUID = 1L;
-
     private OperacionesCalculadora op;
-
+    
     public CalculadoraGUI(String nombre) {
         super(nombre);
         initComponents();
     }
 
-    // Component initialization
     public void initComponents() {
 
         this.setLayout(new BorderLayout());
@@ -29,7 +24,7 @@ public class CalculadoraGUI extends JFrame {
         txtResultado.setEditable(false);
         txtResultado.setFont(new Font("Open Sans", 1, 18));
         txtResultado.setForeground(new Color(51, 51, 51));
-        txtResultado.setText("0123456789");
+        txtResultado.setText("");
         txtResultado.setPreferredSize(new Dimension(430, 30));
 
         C1 = new JLabel("C1");
@@ -165,8 +160,7 @@ public class CalculadoraGUI extends JFrame {
         this.add(barraMenu, BorderLayout.NORTH);
         this.add(contenedorNumeros, BorderLayout.CENTER);
 
-        //Personalizacion de la ventana
-        this.setSize(500, 400);
+        this.setSize(800, 400);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.setVisible(true);
@@ -278,7 +272,6 @@ public class CalculadoraGUI extends JFrame {
         });
     }
 
-    // Variables declaration
     JTextField txtResultado;
     JLabel C1;
     JLabel C2;
@@ -306,7 +299,7 @@ public class CalculadoraGUI extends JFrame {
     int primerNumero;
     int segundoNumero;
     String operador;
-    // End of variables declaration
+    
 
 }
 
