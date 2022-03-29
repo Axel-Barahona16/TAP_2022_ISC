@@ -21,16 +21,13 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 
     public Videojuego(){
     
-        //Se crea el primer componente que es el boton
         R = new Reiniciar("Reiniciar");
         R.setBounds(420, 470, 90, 90);
         R.setForeground(Color.BLACK);
         R.addActionListener(evt ->btnRActionPerformed(evt));
         
-        //Se crean los componentes dos y tres
         C = new Componentes();
 
-        //Se crean los componentes arrastables
         element1 = new Label("   A   ");
         element1.setBounds(725, 200, 30, 30);
         element1.setBackground(Color.YELLOW);
@@ -55,15 +52,13 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
         element4.addMouseMotionListener(this);
         element4.addMouseListener(this);
 
-        //Agregamos a la ventana cada uno de los elementos del programa
         this.add(element1);
         this.add(element2);
         this.add(element3);
         this.add(element4);
         this.add(R);
         this.add(C);
-    
-        //Propiedades de la ventana
+   
         this.setVisible(true);
         this.setResizable(false);
         this.setSize(900, 800);
@@ -72,12 +67,10 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
         
     }
 
-    //Se genera la accion del boton R
     private void btnRActionPerformed(ActionEvent e){
 		reiniciar();
 	}
 
-    //Metodo para cerrar la ventana
     public void cerrar() {
 		addWindowListener(new WindowAdapter() {
 			@Override
@@ -94,7 +87,6 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 		    );
 	}
 
-    //Se crea metodo para Reiniciar las posiciones
     public void reiniciar(){
         element1.setBounds(725, 200, 30, 30);
         element2.setBounds(775, 200, 30, 30);
@@ -118,19 +110,16 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        // TODO Auto-generated method stub
         if(e.getSource() == element1) {
 			validar(element1);
 		}if(e.getSource() == element2) {
@@ -144,19 +133,17 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        // TODO Auto-generated method stub
         
     }
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        // TODO Auto-generated method stub
+        
         if(e.getSource() == element1) {
 			mover(e, element1);
 		}
@@ -173,7 +160,6 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        // TODO Auto-generated method stub
         
     }
     
