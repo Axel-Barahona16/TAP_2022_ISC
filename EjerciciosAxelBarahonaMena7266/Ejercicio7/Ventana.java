@@ -26,6 +26,7 @@ public class Ventana extends Canvas{
 			i1= ImageIO.read(getClass().getResourceAsStream("/megaman1.jpg"));
 			i2= ImageIO.read(getClass().getResourceAsStream("/megaman2.jpg"));
 			i3= ImageIO.read(getClass().getResourceAsStream("/megaman3.jpg"));
+			
 		}catch(IOException e) {
 			e.getMessage();
 		}
