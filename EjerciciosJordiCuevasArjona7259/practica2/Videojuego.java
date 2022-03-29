@@ -34,27 +34,28 @@ public class Videojuego extends Frame implements MouseMotionListener, MouseListe
         //Se crean los componentes arrastables
         element1 = new Label("   1   ");
         element1.setBounds(725, 200, 30, 30);
-        element1.setBackground(Color.MAGENTA);
+        element1.setBackground(Color.BLUE);
         element1.addMouseMotionListener(this);
         element1.addMouseListener(this);
 
         element2 = new Label("   2   ");
         element2.setBounds(775, 200, 30, 30);
-        element2.setBackground(Color.MAGENTA);
+        element2.setBackground(Color.BLUE);
         element2.addMouseMotionListener(this);
         element2.addMouseListener(this);
 
         element3 = new Label("   3   ");
         element3.setBounds(725, 235, 30, 30);
-        element3.setBackground(Color.MAGENTA);
+        element3.setBackground(Color.BLUE);
         element3.addMouseMotionListener(this);
         element3.addMouseListener(this);
 
         element4 = new Label("   4   ");
         element4.setBounds(775, 235, 30, 30);
-        element4.setBackground(Color.MAGENTA);
+        element4.setBackground(Color.BLUE);
         element4.addMouseMotionListener(this);
         element4.addMouseListener(this);
+
 
         //Agregamos a la ventana cada uno de los elementos del programa
         this.add(element1);

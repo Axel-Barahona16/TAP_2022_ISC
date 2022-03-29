@@ -14,7 +14,7 @@ public class Componentes extends Canvas{
 	public void paint(Graphics g) {
 
 		//Se dibuja el segundo componente que es el contenedor
-		g.setColor(Color.red);
+		g.setColor(Color.YELLOW);
 		g.fillRect(50, 50, 300, 300);
 		
 		//Se dibuja el tercer componente que es el contenedor temporal

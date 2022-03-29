@@ -14,11 +14,11 @@ public class calculadora extends JFrame {
 		super(nombre);
 		initComponents();
 	}
-	
+	//necesitamos crear los textos de los resultados
 	public void initComponents(){
 		
 		this.setLayout(new BorderLayout());
-		
+		//operaciones
 		op= new operaciones();
 		
 		txtResultado=new JTextField();
@@ -48,7 +48,10 @@ public class calculadora extends JFrame {
 		btnC.setFocusable(false);
 		btnC.setFont(new Font ("open Sans", 1, 16));
 		btnC.addActionListener(evt -> btnCActionPerformed(evt));
-		
+
+		//creamos los botones correspondientes a la calculadora 
+
+
 		btnUno=new JButton("1");
 		btnUno.setFocusable(false);
 		btnUno.setFont(new Font ("Open Sans", 1, 16));
@@ -99,6 +102,7 @@ public class calculadora extends JFrame {
 		btnCero.setFont(new Font ("open Sans", 1, 16));
 		btnCero.addActionListener(evt ->btnCeroActionPerformed(evt));
 		
+		//estos botones nos permitiran sumar,restar,multiplicar,dividir,resultado y borrar
 		btnSuma=new JButton("+");
 		btnSuma.setFocusable(false);
 		btnSuma.setFont(new Font ("open Sans", 1, 16));
@@ -160,7 +164,7 @@ public class calculadora extends JFrame {
 		this.add(barraMenu,BorderLayout.NORTH);
 		this.add(contenedorNumeros, BorderLayout.CENTER);
 		
-		this.setSize(500,400);
+		this.setSize(700,400);
 		this.setLocationRelativeTo(null);
 		this.setResizable(false);
 		this.setVisible(true);
