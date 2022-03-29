@@ -22,10 +22,10 @@ public class Ventana extends Canvas{
 	
 	public Ventana() {
 		try {
-			img= ImageIO.read(getClass().getResourceAsStream("/fruta.jpg"));
-			i1= ImageIO.read(getClass().getResourceAsStream("/megaman1.jpg"));
-			i2= ImageIO.read(getClass().getResourceAsStream("/megaman2.jpg"));
-			i3= ImageIO.read(getClass().getResourceAsStream("/megaman3.jpg"));
+			img= ImageIO.read(getClass().getResourceAsStream("/Fruta.jpg"));
+			i1= ImageIO.read(getClass().getResourceAsStream("/Megaman1.jpg"));
+			i2= ImageIO.read(getClass().getResourceAsStream("/Megaman2.jpg"));
+			i3= ImageIO.read(getClass().getResourceAsStream("/Megaman3.jpg"));
 			
 		}catch(IOException e) {
 			e.getMessage();
