@@ -15,7 +15,7 @@ import java.awt.event.WindowEvent;
 public class MainJuego extends Frame implements MouseMotionListener, MouseListener, KeyListener {
 	Panel p;
 	Ventana m;
-	//Constructor
+	
 	public MainJuego() {
 		p= new Panel();
 		m = new Ventana();
