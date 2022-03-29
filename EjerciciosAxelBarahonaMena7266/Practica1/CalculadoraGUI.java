@@ -8,12 +8,12 @@ public class CalculadoraGUI extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private OperacionesCalculadora op;
-    
+
     public CalculadoraGUI(String nombre) {
         super(nombre);
         initComponents();
     }
-
+//AQUI ESTAN LOS COMPONENTES DE INSTALACION
     public void initComponents() {
 
         this.setLayout(new BorderLayout());
@@ -27,6 +27,7 @@ public class CalculadoraGUI extends JFrame {
         txtResultado.setText("");
         txtResultado.setPreferredSize(new Dimension(430, 30));
 
+        //BOTONES
         C1 = new JLabel("C1");
         C1.setFont(new Font("Open Sans", 1, 14));
         C1.setHorizontalAlignment(SwingConstants.CENTER);
@@ -43,6 +44,7 @@ public class CalculadoraGUI extends JFrame {
         Op.setFont(new Font("Open Sans", 1, 14));
         Op.setHorizontalAlignment(SwingConstants.CENTER);
 
+        //IMPLEMENTACION DE LOS BOTOBES
         btnC = new JButton("C");
         btnC.setFocusable(false);
         btnC.setFont(new Font("Open Sans", 1, 16));
@@ -128,12 +130,12 @@ public class CalculadoraGUI extends JFrame {
         btnIgual.setFont(new Font("Open Sans", 1, 16));
         btnIgual.addActionListener(evt -> btnIgualActionPerformed(evt));
 
-
+     //AQUI IMPLEMENTE LA BARRA DE MENU
         barraMenu = new JPanel();
         barraMenu.add(txtResultado, BorderLayout.WEST);
         barraMenu.add(btnC, BorderLayout.EAST);
         
-        
+        //LOS CONTENEDORES IMPLEMENTADOS
         contenedorNumeros = new JPanel();
         contenedorNumeros.setLayout(new GridLayout(5,4, 20, 20));
         contenedorNumeros.add(C1);
@@ -160,13 +162,14 @@ public class CalculadoraGUI extends JFrame {
         this.add(barraMenu, BorderLayout.NORTH);
         this.add(contenedorNumeros, BorderLayout.CENTER);
 
+        //EN ESTE SE PUEDE MODIFICAR EL TAMAÑO DE LA CALCULADORA
         this.setSize(800, 400);
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         this.setVisible(true);
 
     }
-
+     
     private void btnCActionPerformed(ActionEvent e){
         this.txtResultado.setText("");
     }
