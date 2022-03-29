@@ -24,6 +24,10 @@ import java.awt.event.WindowListener;
 
 public class Ventana extends Frame implements ActionListener {
 
+    {
+
+    this.setLocationRelativeTo(null);
+}
     Button aceptar;
 	TextField txt;
 	Panel centro;
@@ -45,12 +49,12 @@ public class Ventana extends Frame implements ActionListener {
 		this.add(resultado, BorderLayout.CENTER);
 		this.add(centro, BorderLayout.NORTH);		
 	    aceptar.setFocusable(false);
-	    aceptar.setBackground(Color.GREEN); 
+	    aceptar.setBackground(Color.RED); 
 	    aceptar.setForeground(Color.BLACK); 
-	    txt.setBackground(Color.BLUE); 
+	    txt.setBackground(Color.YELLOW); 
 	    txt.setForeground(Color.WHITE);
 	    
-		setSize(600, 400);
+		setSize(400, 500);
         setVisible(true); 
        
         cerrarVentana(); 
@@ -90,5 +94,5 @@ public class Ventana extends Frame implements ActionListener {
 	}	
 }
 
-    
+
 
