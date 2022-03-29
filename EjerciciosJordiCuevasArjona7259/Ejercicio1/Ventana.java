@@ -1,16 +1,26 @@
-package EjerciciosJordiCuevasArjona7259;
-package EjerciciosJordiCuevasArjona7259;
 package EjerciciosJordiCuevasArjona7259.Ejercicio1;
 
-    import static java.awt.Font.PLAIN;
-import EjerciciosAxelBarahonaMena7266.Ejercicio1.Ventana;
-import javafx.event.ActionEvent;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import javafx.scene.input.KeyEvent;
-import javafx.scene.paint.Color;
-import javafx.stage.WindowEvent;
+import static java.awt.Font.PLAIN;
+
+import java.util.*;
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.Panel;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.JTextField;
+import javax.swing.border.LineBorder;
+import java.awt.event.WindowListener;
 
 public class Ventana extends Frame implements ActionListener {
 
@@ -83,8 +93,3 @@ public class Ventana extends Frame implements ActionListener {
 		}
 	}	
 }
-
-
-
-
-
