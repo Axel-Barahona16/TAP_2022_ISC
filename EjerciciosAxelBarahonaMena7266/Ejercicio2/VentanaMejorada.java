@@ -1,5 +1,7 @@
-import static java.awt.Font.PLAIN;
+package EjerciciosAxelBarahonaMena7266.Ejercicio2;
 
+
+import static java.awt.Font.PLAIN;
 import java.awt.*;
 import java.awt.BorderLayout;
 import java.awt.Button;
@@ -17,7 +19,6 @@ import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
-
 import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
 
