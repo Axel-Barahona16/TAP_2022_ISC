@@ -1,4 +1,4 @@
-package AxelBarahonaMena7266.Ejercicio1;
+package EjerciciosAxelBarahonaMena7266.Ejercicio1;
 
 import static java.awt.Font.PLAIN;
 

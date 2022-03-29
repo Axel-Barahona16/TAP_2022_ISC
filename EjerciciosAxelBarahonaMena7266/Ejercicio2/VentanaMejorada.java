@@ -25,7 +25,9 @@ import javax.swing.border.LineBorder;
 public class VentanaMejorada extends Frame implements ActionListener {
 
     {
+        
     this.setLocationRelativeTo(null);
+
     }
 
     Button aceptar;
@@ -57,19 +59,19 @@ public class VentanaMejorada extends Frame implements ActionListener {
 		
 		this.add(centro, BorderLayout.NORTH);
 		this.add(resultado, BorderLayout.CENTER);
-		resultado.setBackground(Color.ORANGE);
+		resultado.setBackground(Color.MAGENTA);
 		igual.setFocusable(false);
 	    igual.setBackground(Color.DARK_GRAY);
 	    igual.setForeground(Color.WHITE); 
 	    aceptar.setFocusable(false);
-	    aceptar.setBackground(Color.GREEN);
-	    aceptar.setForeground(Color.BLACK);
+	    aceptar.setBackground(Color.PINK);
+	    aceptar.setForeground(Color.yellow);
 	    vaciar.setFocusable(false);
 	    vaciar.setForeground(Color.BLACK);
 	    txt.setBackground(Color.RED); 
 	    txt.setForeground(Color.WHITE);
 	    
-		setSize(600, 400); 
+		setSize(500, 400); 
         setVisible(true); 
        
         cerrarVentana(); 
