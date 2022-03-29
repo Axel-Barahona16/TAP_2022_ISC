@@ -1,4 +1,4 @@
-package EjerciciosAxelBarahonaMena7266.Ejercicio7;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;

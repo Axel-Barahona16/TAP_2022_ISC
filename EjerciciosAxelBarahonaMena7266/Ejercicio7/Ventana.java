@@ -1,4 +1,4 @@
-package EjerciciosAxelBarahonaMena7266.Ejercicio7;
+
 
 import java.awt.*;
 import java.awt.Canvas;
@@ -22,10 +22,10 @@ public class Ventana extends Canvas{
 	
 	public Ventana() {
 		try {
-			img= ImageIO.read(getClass().getResourceAsStream("/fresa.png"));
-			i1= ImageIO.read(getClass().getResourceAsStream("/1.png"));
-			i2= ImageIO.read(getClass().getResourceAsStream("/2.png"));
-			i3= ImageIO.read(getClass().getResourceAsStream("/3.png"));
+			img= ImageIO.read(getClass().getResourceAsStream("/fruta.jpg"));
+			i1= ImageIO.read(getClass().getResourceAsStream("/megaman1.jpg"));
+			i2= ImageIO.read(getClass().getResourceAsStream("/megaman2.jpg"));
+			i3= ImageIO.read(getClass().getResourceAsStream("/megaman3.jpg"));
 		}catch(IOException e) {
 			e.getMessage();
 		}
