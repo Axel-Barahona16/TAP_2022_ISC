@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Axelb\\Documents\\TPA_2022_ISC_2\\AxelArielBarahonaMena\\Practica1\\practica1\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "C:\\Users\\Axelb\\Documents\\TAP_2022_ISC\\EjerciciosAxelBarahonaMena7266\\C#\\Practica1\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "C:\\Users\\Axelb\\Documents\\TPA_2022_ISC_2\\AxelArielBarahonaMena\\Practica1\\practica1\\Calculadora\\Calculadora.csproj",
+      "projectPath": "C:\\Users\\Axelb\\Documents\\TAP_2022_ISC\\EjerciciosAxelBarahonaMena7266\\C#\\Practica1\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\Axelb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Axelb\\Documents\\TPA_2022_ISC_2\\AxelArielBarahonaMena\\Practica1\\practica1\\Calculadora\\obj\\",
+      "outputPath": "C:\\Users\\Axelb\\Documents\\TAP_2022_ISC\\EjerciciosAxelBarahonaMena7266\\C#\\Practica1\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Axelb\\AppData\\Roaming\\NuGet\\NuGet.Config",
