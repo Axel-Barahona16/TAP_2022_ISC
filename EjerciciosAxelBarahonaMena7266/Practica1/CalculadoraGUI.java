@@ -1,5 +1,3 @@
-package EjerciciosAxelBarahonaMena7266.Practica1;
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
