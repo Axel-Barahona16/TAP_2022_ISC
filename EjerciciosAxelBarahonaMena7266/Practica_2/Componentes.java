@@ -12,7 +12,7 @@ public class Componentes extends Canvas{
 
 	public void paint(Graphics g) {
 
-		g.setColor(Color.MAGENTA);
+		g.setColor(Color.BLACK);
 		g.fillRect(50, 50, 300, 300);
 		
 		g.setColor(Color.black);
